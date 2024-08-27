@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  max-width: 800px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
@@ -33,10 +33,12 @@ main {
 #lista{
   list-style:none;
   padding-left: 0;
+  width: 50vw;
 }
 
 .accordion {
   background: #F5BA0A;
+  width: 100%;
   color: black;
   cursor: pointer;
   padding: 15px;
@@ -108,14 +110,3 @@ main {
 }
 
 /* Responsiveness */
-@media (max-width: 800px) {
-  .accordion {
-      width: 100%;
-  }
-}
-
-@media (max-width: 700px) {
-  .modal-content {
-      width: 100%;
-  }
-}

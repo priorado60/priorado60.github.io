@@ -18,6 +18,23 @@
         </div>
 
         <main>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="imgs/1.png" onclick="openModal(this)">
+                    <img src="imgs/2.png" onclick="openModal(this)">
+                    <img src="imgs/3.png" onclick="openModal(this)">
+                    <img src="imgs/4.png" onclick="openModal(this)">
+                    <img src="imgs/5.png" onclick="openModal(this)">
+                </div>
+                <button class="prev" onclick="prevSlide()">❮</button>
+                <button class="next" onclick="nextSlide()">❯</button>
+            </div>
+            
+            <!-- Modal para exibir imagem em tela cheia -->
+            <div class="modal" id="imageModal">
+                <span class="close" onclick="closeModal()">×</span>
+                <img id="modalImage">
+            </div>
             <section id="opcoes">
                 <ul id="lista">
                     <li class="lista">
